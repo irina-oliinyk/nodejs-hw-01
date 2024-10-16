@@ -1,5 +1,5 @@
-import { createFakeContact } from '../utils/createFakeContact';
-import { PATH_DB } from '../constants/contacts';
+import { createFakeContact } from '../utils/createFakeContact.js';
+import { PATH_DB } from '../constants/contacts.js';
 import fs from 'node:fs/promises';
 
 export const generateContacts = async (number) => {
